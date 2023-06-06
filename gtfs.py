@@ -56,3 +56,4 @@ for shape_id, linestring in zip(shape_ids, linestrings):
     # Save the GPX file:
     with open(f"./gpx/{shape_id}.gpx", "w") as f:
         f.write(gpx.to_xml())
+#style
